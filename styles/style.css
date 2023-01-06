@@ -86,17 +86,55 @@ img{
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../assets/images/watch.png');
     background-position: center;
     background-repeat: no-repeat;
-    margin: 0 200px;
+    margin: 100px 200px;
+    border-radius: 10px;
 }
 .mindset-title{
     padding: 40px 50px;
 }
 .mindset-subtitle{
     font-size: 40px;
-    color: beige;
+    color: rgb(255, 255, 255);
 }
 .call-now .btn-primary {
     background-color: aliceblue;
     color: #F15B22;
+    font-weight: 600;
+    padding: 20px 40px;
 }
 
+/* Footer section */
+
+.footer-section{
+    background-color: #151414;
+    height: 70vh;
+}
+.footer-main{
+    display: flex;
+    margin: 0 200px;
+    padding-top: 100px;
+    gap: 50px;
+}
+.footer-future{
+    color: #FFFF;
+}
+.footer-icon img{
+    width: 30px;
+    height: auto;
+}
+.footer-text{
+    padding: 20px 0;
+}
+.footer-right-section{
+    padding-left: 260px;
+}
+.footer-right-title{
+    color: #FFFF;
+}
+.footer-mail{
+    color: #ffffff;
+    padding: 20px 40px;
+    background: none;
+    border-color: #ffffff;
+    
+}
