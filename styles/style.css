@@ -79,3 +79,23 @@ img{
     padding: 10px 0;
 }
 
+/* Always keep a positive mindset styles */
+
+.container-mindset{
+    height: 35vh;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../assets/images/watch.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 200px;
+}
+.mindset-title{
+    padding: 40px 50px;
+}
+.mindset-subtitle{
+    font-size: 40px;
+    color: beige;
+}
+.call-now .btn-primary {
+    background-color: aliceblue;
+    color: #F15B22;
+}
