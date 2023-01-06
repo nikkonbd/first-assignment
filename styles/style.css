@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Header Section Styles */
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/images/banner/banner1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    text-align: right;
+    margin: 0px 200px;
+    padding-top: 180px;
+    
+}
+.btn-primary{
+    padding: 20px 25px;
+    background-color: #F15B22;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+.container-title{
+    font-size: 65px;
+    font-weight: 700;
+}
+.container-description{
+    padding: 20px 0;
+}
