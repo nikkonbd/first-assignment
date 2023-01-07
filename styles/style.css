@@ -135,6 +135,9 @@ img{
     color: #ffffff;
     padding: 20px 40px;
     background: none;
-    border-color: #ffffff;
+    outline: none;
+    border-radius: 10px;
+    border: solid 1px white;
+    
     
 }
